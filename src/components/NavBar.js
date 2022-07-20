@@ -3,10 +3,10 @@ import "../styles.scss";
 function NavBar() {
   return (
     <nav classname="nav">
-      <a href="#"> SO FUNKTIONIERT's</a> 
+      <a href="#"> SO FUNKTIONIERT's</a>
       <a href="#">SONDERANGEBOTE</a>
       <select>
-        <option value="1" selected hidden>
+        <option defaultValue="selected" hidden>
           MEIN BEREICH
         </option>
         <option value="2">My publicshed jokes</option>

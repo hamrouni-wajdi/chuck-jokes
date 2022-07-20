@@ -1,5 +1,12 @@
 $myColor: red;
-$myFont:src('./Montserrat');
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+   url("./Montserrat/Montserrat-Medium.ttf") format("truetype");
+  font-weight: bold;
+  }
+  
 h1 {
   color: $myColor;
 }
@@ -63,6 +70,39 @@ color: #ffffff;
     background-color: #ff915b;
     border: 1px solid red;
     padding :14px;
-    font-family: src('./Montserrat');
     color:#ffffff
+}
+
+.joke-title{
+  width: 206px;
+  height: 20px;
+  margin: 0 0 6px 8px;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #303030;
+}
+
+.joke-body{
+  width: 328px;
+  height: 154;
+  margin: 6px 0 32px;
+  font-family: src('./');
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  color: #303030;
+}
+.joke{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  height: 40%;
+  font-family: "Montserrat";
 }
