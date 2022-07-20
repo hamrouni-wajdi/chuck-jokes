@@ -7,10 +7,60 @@ h1 {
 nav {
     overflow: hidden;  
     background-color: #5e5e5e;
-    border:1px solid red;
     height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+    color: #ffffff;
 }
 a{
 color:#ffffff ;
 text-decoration: none;
+margin-top: auto;
+margin-bottom: auto;
+margin-left: 1em;
+margin-right: 1em;
+}
+
+select {
+background-color:#d0ba93 ;
+width: 190px;
+position: relative;
+}
+
+.nav-selected:after{
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+}
+  
+option {
+text-align: center;
+color: #ffffff;
+}
+
+.nav select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+
+.button-container{
+    width: 206px;
+    height: 20px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    background-color: #ff915b;
+    border: 1px solid red;
+    padding :14px;
 }
