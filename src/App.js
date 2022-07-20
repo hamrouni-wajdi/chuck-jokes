@@ -16,7 +16,7 @@ function App() {
         useAxiosPost(" https://api.chucknorris.io/jokes/search?query=all")
       )} */}
       <h1> hello</h1>
-      <Button content="button" />
+      <Button content="DAD JOKES" />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 $myColor: red;
-
+$myFont:src('./Montserrat');
 h1 {
   color: $myColor;
 }
@@ -49,12 +49,12 @@ color: #ffffff;
     top: 7px;
   }
 
-.button-container{
+.btn{
     width: 206px;
     height: 20px;
     font-family: Montserrat;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 200;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.43;
@@ -63,4 +63,6 @@ color: #ffffff;
     background-color: #ff915b;
     border: 1px solid red;
     padding :14px;
+    font-family: src('./Montserrat');
+    color:#ffffff
 }
