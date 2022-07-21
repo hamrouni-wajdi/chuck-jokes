@@ -12,30 +12,50 @@ function App() {
       <header>
         <NavBar />
       </header>
-      {console.log(
+      {/* {console.log(
         useAxiosPost(" https://api.chucknorris.io/jokes/search?query=all")
-      )}
+      )} */}
+      <div className="container">
       <h1> hello</h1>
       <Button content="DAD JOKES" />
       <div className="jokes-container">
         <Joke
-          title="loyer joke"
+          title="LOYER JOKE"
           body={
             "Chuck Norris doesn't <br/> ~worship \n Buddah,\n Buddah worships Chuck Norris. Chuck Norris doesn't <br/> ~worship \n Buddah,\n Buddah worships Chuck Norris."
           }
         />
         <Joke
-          title="loyer joke"
+          title="LOYER JOKE"
           body={
             "Chuck Norris doesn't <br/> ~worship \n Buddah,\n Buddah worships Chuck Norris."
           }
         />
         <Joke
-          title="loyer joke"
+          title="LOYER JOKE"
           body={
             "Chuck Norris doesn't <br/> ~worship \n Buddah,\n Buddah worships Chuck Norris."
           }
         />
+        <Joke
+          title="LOYER JOKE"
+          body={
+            "Chuck Norris doesn't <br/> ~worship \n Buddah,\n Buddah worships Chuck Norris."
+          }
+        />
+        <Joke
+          title="LOYER JOKE"
+          body={
+            "Chuck Norris doesn't <br/> ~worship \n Buddah,\n Buddah worships Chuck Norris."
+          }
+        />{" "}
+        <Joke
+          title="LOYER JOKE"
+          body={
+            "Chuck Norris doesn't <br/> ~worship \n Buddah,\n Buddah worships Chuck Norris."
+          }
+        />
+      </div>
       </div>
     </div>
   );
