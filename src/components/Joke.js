@@ -5,7 +5,6 @@ function Joke({ title, body }) {
     <div className="joke">
       <h2 className="joke-title">{title}</h2>
       <p className="joke-body">{body}</p>
-      <p>hkjhklhk lkmlhl </p>
     </div>
   );
 }

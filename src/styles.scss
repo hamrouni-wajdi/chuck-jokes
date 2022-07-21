@@ -74,6 +74,8 @@ color: #ffffff;
 }
 
 .joke-title{
+  padding-left: 32px;
+  padding-top: 16px;
   width: 206px;
   height: 20px;
   margin: 0 0 6px 8px;
@@ -98,6 +100,8 @@ color: #ffffff;
   line-height: 1.57;
   letter-spacing: normal;
   color: #303030;
+  margin-left: 16px;
+  height:154px;
 }
 .joke{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -105,4 +109,10 @@ color: #ffffff;
   width: 40%;
   height: 40%;
   font-family: "Montserrat";
+  margin: 31px;
+}
+
+.jokes-container{
+  display:flex;
+  
 }

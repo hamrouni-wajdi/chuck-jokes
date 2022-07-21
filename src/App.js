@@ -17,14 +17,26 @@ function App() {
       )}
       <h1> hello</h1>
       <Button content="DAD JOKES" />
-      <Joke
-        title="loyer joke"
-        body={"Chuck Norris doesn't <br/> ~worship \n Buddah,\n Buddah worships Chuck Norris."}
-      />
-            <Joke
-        title="loyer joke"
-        body={"Chuck Norris doesn't <br/> ~worship \n Buddah,\n Buddah worships Chuck Norris."}
-      />
+      <div className="jokes-container">
+        <Joke
+          title="loyer joke"
+          body={
+            "Chuck Norris doesn't <br/> ~worship \n Buddah,\n Buddah worships Chuck Norris. Chuck Norris doesn't <br/> ~worship \n Buddah,\n Buddah worships Chuck Norris."
+          }
+        />
+        <Joke
+          title="loyer joke"
+          body={
+            "Chuck Norris doesn't <br/> ~worship \n Buddah,\n Buddah worships Chuck Norris."
+          }
+        />
+        <Joke
+          title="loyer joke"
+          body={
+            "Chuck Norris doesn't <br/> ~worship \n Buddah,\n Buddah worships Chuck Norris."
+          }
+        />
+      </div>
     </div>
   );
 }
