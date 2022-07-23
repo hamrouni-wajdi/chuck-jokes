@@ -67,7 +67,7 @@ color: #ffffff;
     line-height: 1.43;
     letter-spacing: normal;
     text-align: center;
-    background-color: #ff915b;
+    //background-color: #ff915b;
     border: 1px solid red;
     padding :14px;
     color:#ffffff
@@ -116,6 +116,7 @@ color: #ffffff;
 .jokes-container{
   display:flex;
   flex-wrap: wrap;
+  padding: 5%;
 }
 .container{
   width:auto;
@@ -123,3 +124,8 @@ color: #ffffff;
   border: 1px solid blue;
   padding: 3%;
 }
+.joke-title-container{
+ display: flex;
+ flex-direction: row;
+}
+

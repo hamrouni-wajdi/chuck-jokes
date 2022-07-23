@@ -1,6 +1,8 @@
 import "../styles.scss";
 
-function Button({ content }) {
+function Button({ content, color }) {
+  console.log(typeof color, color, content);
+  const divColor = color.toString();
   return (
     <div
       className="button-container"
@@ -8,7 +10,9 @@ function Button({ content }) {
         console.log("clicked");
       }}
     >
-      <div className="btn">{content}</div>
+      <div style={{ backgroundColor: divColor }} className="btn">
+        {content}
+      </div>
     </div>
   );
 }
