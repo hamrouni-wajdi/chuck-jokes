@@ -17,7 +17,6 @@ function App() {
       )} */}
       <div className="container">
         <h1> hello</h1>
-        <Button content="DAD JOKES" color="#202020"/>
         <ButtonContainer />
         <div className="jokes-container">
           <Joke
