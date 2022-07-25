@@ -6,11 +6,14 @@ import NavBar from "./components/NavBar";
 import Button from "./components/Button";
 import Joke from "./components/Joke";
 import ButtonContainer from "./components/ButtonContainer";
+import Search from "./components/Search";
+
 function App() {
   return (
     <div>
       <header>
         <NavBar />
+        <Search />
       </header>
       {/* {console.log(
         useAxiosPost(" https://api.chucknorris.io/jokes/search?query=all")
