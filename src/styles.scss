@@ -116,7 +116,6 @@ color: #ffffff;
   font-family: "Montserrat";
   margin: 16px;
   height: 18em;
-  border: 1px solid black;
 }
 
 .jokes-container{
@@ -129,7 +128,6 @@ color: #ffffff;
 .container{
   width:auto;
   justify-content: center;
-  border: 1px solid blue;
   padding: 3%;
 }
 .joke-title-container{
@@ -145,12 +143,9 @@ color: #ffffff;
 border:3px dotted black ;
 width:auto;
 background-image: url("./images/assets_Homework_Front-End_01/bitmap.png");
+height: 264px;
 }
-.search-container > * {
-justify-self: center;
-max-width: 325px;
 
-}
 .the-joke-bible{
  width: 350px;
  height: 72px;
@@ -175,4 +170,10 @@ max-width: 325px;
   margin: auto;
   width: 350px;
   text-align: center;
+}
+#search-input {
+ justify-self: center;
+ margin-left: 45%;
+ margin-top: 20px;
+ width: 150px;
 }

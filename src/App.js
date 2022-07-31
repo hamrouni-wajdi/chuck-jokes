@@ -7,8 +7,30 @@ import Button from "./components/Button";
 import Joke from "./components/Joke";
 import ButtonContainer from "./components/ButtonContainer";
 import Search from "./components/Search";
+import { useState, useEffect } from "react";
+import axios from "axios";
 
 function App() {
+  const url = " https://api.chucknorris.io/jokes/search?query=all";
+  let [title, setTitle] = useState(null);
+  let [body, setBody] = useState(null);
+  const [loaded, setLoaded] = useState(false);
+  const [error, setError] = useState("");
+  useEffect(() => {
+    (async () => {
+      try {
+        const response = await axios.get(url);
+
+        setTitle(response.data.result[0].value);
+        setBody(response.data.result[0].value);
+      } catch (error) {
+        setError(error.message);
+      } finally {
+        setLoaded(true);
+      }
+    })();
+  }, []);
+
   return (
     <div>
       <header>
@@ -58,6 +80,7 @@ function App() {
               "Chuck Norris doesn't <br/> ~worship \n Buddah,\n Buddah worships Chuck Norris."
             }
           />
+          <Joke title={"random jokes"} body={body} />
         </div>
       </div>
     </div>
