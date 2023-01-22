@@ -62,12 +62,8 @@ function App() {
               "Chuck Norris doesn't <br/> ~worship \n Buddah,\n Buddah worships Chuck Norris."
             }
           />
-          <Joke
-            title="LOYER JOKE"
-            body={
-              "Chuck Norris doesn't <br/> ~worship \n Buddah,\n Buddah worships Chuck Norris."
-            }
-          />
+        
+         
           <Joke
             title="LOYER JOKE"
             body={
